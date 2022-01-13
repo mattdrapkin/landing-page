@@ -81,11 +81,37 @@ button {
     align-self: flex-start;
 }
 
-.secondary p 
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.random-info {
 
+.img-container {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 24px;;
+}
+
+.img-chain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-chain img {
+    max-width: 200px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 32px 0;
 }
 
 .inspiring-quote {
