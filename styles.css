@@ -95,7 +95,7 @@ button, .sign-up-box {
 .img-container {
     display: flex;
     gap: 48px;
-    margin-bottom: 24px;;
+    margin-bottom: 24px;
 }
 
 .img-chain {
@@ -144,6 +144,7 @@ button, .sign-up-box {
     padding: 24px 0;
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .sign-up-box {
@@ -168,4 +169,25 @@ button, .sign-up-box {
 
 .sign-up-box button {
     border: 1.5px solid white;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 28%;
+}
+
+.copyright {
+}
+
+.footer-imgs {
+}
+
+.footer-imgs img {
+    width: 20%;
+    height: auto;
 }
