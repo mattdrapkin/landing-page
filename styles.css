@@ -177,8 +177,11 @@ button, .sign-up-box {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 28%;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 5%;
 }
 
 .footer-imgs img {
